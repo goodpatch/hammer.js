@@ -2194,7 +2194,8 @@ Manager.prototype = {
         }
 
         // run the touch-action polyfill
-        this.touchAction.preventDefaults(inputData);
+        // comment out for Prott
+        // this.touchAction.preventDefaults(inputData);
 
         var recognizer;
         var recognizers = this.recognizers;
